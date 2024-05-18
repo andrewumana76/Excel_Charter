@@ -60,7 +60,7 @@ def create_piechart(title,arr):
     pie_info.groupby(['Name']).sum().plot(kind='pie',y=title,autopct='%1.0f%%',colors=colors)
     plt.show()
     
-    return 0
+    return
 
 
 def create_boxplot(title,score_arr):
