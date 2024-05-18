@@ -1,4 +1,4 @@
-The purpose of this python script is to read an excel file and create a boxplot and pie chart. 
+The purpose of this python script is to read an excel file and create a boxplot and pie chart. The script reads the excel file and using the pandas and matplotlib libraries to create charts. 
 
 **Excel File**
   - 3 Columns:
