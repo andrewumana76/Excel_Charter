@@ -60,7 +60,7 @@ def create_piechart(title,arr):
     pie_info.groupby(['Name']).sum().plot(kind='pie',y=title,autopct='%1.0f%%',colors=colors)
     plt.show()
     
-    return
+    return 0
 
 
 def create_boxplot(title,score_arr):
@@ -69,7 +69,7 @@ def create_boxplot(title,score_arr):
     plt.boxplot(score_arr,patch_artist=True,boxprops=dict(facecolor='red',color='black'),whiskerprops=dict(color='black'),medianprops=dict(color='yellow'))
     plt.show()
     
-    return
+    return 0
 
 #define the main function
 def main():
@@ -103,7 +103,9 @@ def main():
 
     #Call the create boxplot function to create a boxplot based on the base score
     create_boxplot("Base_Scores",base_score)
-    
+
+    return 0
+
 #Call the main function            
 main()
 
